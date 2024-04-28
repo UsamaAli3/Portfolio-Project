@@ -114,6 +114,9 @@ body {
   text-align: center;
   margin-left: 25px;
 }
+.menu-icon-link {
+  text-decoration: none;
+}
 .links-width-menu {
   width: 30px;
   padding: 5px;
