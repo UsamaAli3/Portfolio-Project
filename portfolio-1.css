@@ -379,6 +379,12 @@ body {
     padding-left: 0px;
     line-height: 1.8;
   }
+  .one {
+    width: 100px;
+    padding-right: 14px;
+    margin-left: -14%;
+    text-align: center;
+  }
   .arrow-down {
     width: 25px;
     margin-left: auto;
@@ -1023,12 +1029,6 @@ body {
     justify-content: center;
     margin-top: 50px;
     overflow: hidden;
-  }
-
-  .equal {
-    width: 500px;
-    height: 500px;
-    background-color: rgb(138, 138, 229);
   }
 }
 
