@@ -293,6 +293,9 @@ body {
   font-weight: bold;
   font-size: 18px;
 }
+.one {
+  text-align: center;
+}
 .arrow-down {
   width: 25px;
   margin-left: auto;
