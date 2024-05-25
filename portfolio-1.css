@@ -335,7 +335,7 @@ body {
     width: 300px;
     height: 300px;
     border-radius: 50%;
-    margin-top: 17px;
+    margin: 27px 0px 0px 0px;
     border: 20px solid rgb(255, 255, 255);
   }
   .contaner-first-page {
@@ -376,12 +376,17 @@ body {
     margin-right: auto;
   }
   .text-twoo {
-    font-size: 3.7rem;
+    font-size: 3.5rem;
     font-weight: 600;
     text-align: center;
     margin: -110px;
     padding-left: 0px;
     line-height: 1.8;
+  }
+  .text-three {
+    font-size: 21px;
+    font-weight: 400;
+    margin: 22px 0px 0px 0px;
   }
   .one {
     width: 100px;
@@ -394,7 +399,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     position: absolute;
-    bottom: -65px;
+    bottom: -120px;
     right: 50%;
   }
 }
@@ -552,12 +557,12 @@ body {
   background-color: rgb(242, 242, 242);
 }
 
-.aboutme {
+/* .aboutme {
   text-align: center;
   font-size: 18px;
   margin-bottom: -20px;
   padding-top: 70px;
-}
+} */
 
 .about1 {
   background-color: #fdbb2e;
@@ -607,12 +612,12 @@ body {
 }
 
 /* Resume-4 */
-.aboutme {
+/* .aboutme {
   text-align: center;
   font-size: 18px;
   margin-bottom: -20px;
   padding-top: 70px;
-}
+} */
 
 .about1 {
   background-color: #fdbb2e;
@@ -872,11 +877,11 @@ body {
 }
 
 /* Portfolio-6 */
-.aboutme {
+/* .aboutme {
   text-align: center;
   font-size: 18px;
   padding-top: 70px;
-}
+} */
 
 .about1 {
   background-color: #fdbb2e;
