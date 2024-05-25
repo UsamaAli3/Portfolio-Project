@@ -1331,9 +1331,6 @@ h1 {
   margin-left: 120px;
   width: calc(100% / 2);
   padding-right: 50px;
-  a{
-  text-decoration: none;
-  }
 }
 
 .text-one {
