@@ -46,7 +46,7 @@ body {
   justify-content: end;
   width: 800px;
   padding-right: 15px;
-  padding-top: 10px;
+  /*padding-top: 10px;*/
   text-decoration: none;
   color: #212529;
   align-items: first center;
@@ -335,6 +335,7 @@ body {
     width: 300px;
     height: 300px;
     border-radius: 50%;
+    margin-top: 17px;
     border: 20px solid rgb(255, 255, 255);
   }
   .contaner-first-page {
