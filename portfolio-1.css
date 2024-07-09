@@ -437,7 +437,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     position: absolute;
-    bottom: 10px;
+    bottom: -50px;
     right: 50%;
   }
 }
@@ -479,7 +479,20 @@ body {
   font-size: 18px;
   padding-top: 70px;
 }
-
+.autoShow {
+  animation: autoShow both;
+  animation-timeline: view(40% 30%);
+}
+@keyframes autoShow {
+  from {
+    opacity: 0;
+    transform: translateY(200px) scale(0.3);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px) scale(1);
+  }
+}
 
 .about1 {
   background-color: #fdbb2e;
