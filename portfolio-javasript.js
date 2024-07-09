@@ -59,3 +59,12 @@ window.addEventListener("scroll", () => {
     navColorChange.style.backgroundColor = "#fdbb2e";
   }
 });
+const bouningIn = document.querySelector(".bounce-in-js");
+
+window.addEventListener("scroll", () => {
+  if (window.pageYOffset > 500) {
+    bouningIn.classList.add("bounce-in");
+  } else if (window.pageYOffset < 500) {
+    bouningIn.classList.remove("bounce-in");
+  }
+});

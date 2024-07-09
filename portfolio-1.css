@@ -1519,3 +1519,37 @@ h1 {
     text-align: center;
   }
 }
+.autoBlur {
+  animation: autoBlur linear both;
+  animation-timeline: view(auto);
+}
+
+@keyframes autoBlur {
+  0%,
+  50% {
+    filter: blur(0px);
+  }
+
+  100% {
+    filter: blur(40px);
+  }
+}
+.bounce-in {
+  animation: bounce-in 1s ease;
+}
+@keyframes bounce-in {
+  0% {
+    opacity: 0;
+    transform: scale(0.3);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.05);
+  }
+  70% {
+    transform: scale(0.7);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
