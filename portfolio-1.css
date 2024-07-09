@@ -399,6 +399,10 @@ body {
     padding-top: 7%;
     margin: 0;
   }
+  .autoBlur {
+    opacity: 1;
+    filter: blur(0px) !important;
+  }
   .text-one {
     background-color: #fdbb2e;
     display: flex;
@@ -437,7 +441,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     position: absolute;
-    bottom: -50px;
+    bottom: 0px;
     right: 50%;
   }
 }
@@ -478,20 +482,6 @@ body {
   text-align: center;
   font-size: 18px;
   padding-top: 70px;
-}
-.autoShow {
-  animation: autoShow both;
-  animation-timeline: view(40% 30%);
-}
-@keyframes autoShow {
-  from {
-    opacity: 0;
-    transform: translateY(200px) scale(0.3);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0px) scale(1);
-  }
 }
 
 .about1 {
@@ -1519,6 +1509,20 @@ h1 {
     text-align: center;
   }
 }
+.autoShow {
+  animation: autoShow both;
+  animation-timeline: view(40% 30%);
+}
+@keyframes autoShow {
+  from {
+    opacity: 0;
+    transform: translateY(200px) scale(0.3);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px) scale(1);
+  }
+}
 .autoBlur {
   animation: autoBlur linear both;
   animation-timeline: view(auto);
@@ -1531,7 +1535,7 @@ h1 {
   }
 
   100% {
-    filter: blur(40px);
+    filter: blur(20px);
   }
 }
 .bounce-in {
@@ -1550,6 +1554,20 @@ h1 {
     transform: scale(0.7);
   }
   100% {
+    transform: scale(1);
+  }
+}
+.autoSlide {
+  animation: autoSlide both;
+  animation-timeline: view(80% 0%);
+}
+@keyframes autoSlide {
+  from {
+    opacity: 0;
+    transform: scale(0.3);
+  }
+  to {
+    opacity: 1;
     transform: scale(1);
   }
 }
