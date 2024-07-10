@@ -337,7 +337,7 @@ body {
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 767px) {
   main {
     width: 100%;
     overflow: hidden;
@@ -357,6 +357,7 @@ body {
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;
+    position: relative;
     width: 100%;
     height: 100vh;
   }
@@ -437,11 +438,12 @@ body {
     text-align: center;
   }
   .arrow-down {
+    display: none;
     width: 25px;
     margin-left: auto;
     margin-right: auto;
     position: absolute;
-    bottom: 0px;
+    bottom: -80px;
     right: 50%;
   }
 }
@@ -589,11 +591,11 @@ body {
   .aboutme {
     text-align: center;
     font-size: 18px;
-    margin-top: 150px;
     padding-top: 70px;
   }
 }
 
+}
 /* What I Do-3 */
 .b-g-lightblue {
   background-color: rgb(242, 242, 242);
@@ -650,7 +652,14 @@ body {
     display: grid;
     grid-template-columns: auto;
     margin: 20px;
+    background-color: #F2F2F2;
   }
+  #whatido{
+    background-color: #F2F2f2;
+  }
+}
+#whatido{
+  background-color: #F2F2f2;
 }
 
 /* Resume-4 */
@@ -1507,6 +1516,20 @@ h1 {
     flex-direction: column;
     justify-content: center;
     text-align: center;
+  }
+  .autoShow {
+    animation: autoShow 0.7s ease !important;
+    animation-timeline: scroll();
+  }
+  @keyframes autoShow {
+    from {
+      opacity: 0;
+      transform: translateY(200px) scale(0.3);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0px) scale(1);
+    }
   }
 }
 .autoShow {
